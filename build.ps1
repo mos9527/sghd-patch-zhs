@@ -19,7 +19,7 @@ New-Item -ErrorAction Ignore -ItemType Directory -Path ".temp\script\" | Out-Nul
 
 Write-Host "Preparing scripts"
 Copy-Item -Path ".\scripts\script_scx\*" -Destination ".\.temp\script\" -Force
-.\.bin\sc3tools\sc3tools.exe replace-text .\.temp\script\*.scx .\scripts\script\*.txt sghdzhs
+.\.bin\sc3tools\sc3tools.exe replace-text .\.temp\script\*.SCX .\scripts\script\*.txt sghdzhs
 
 Write-Host "Preparing c0data"
 Remove-Item -Path ".temp\c0data" -Recurse -ErrorAction Ignore | Out-Null
