@@ -1,0 +1,53 @@
+{
+  "__schema_version": 2,
+  "appdatadir": "Committee of Zero\\SGHDSteam",
+  "patchName": "https://github.com/mos9527/sghd-patch-zhs",
+  "patchVersion": "0.0.1",
+  "base": {
+    "hookText": true,
+    "improveDialogueOutlines": false,
+    "redoDialogueWordwrap": true,
+    "textureFiltering": true,
+    "exitBlackScreenFix": false,
+    "dialogueRedesignYOffsetShift": 15,
+    "dialogueRedesignLineHeightShift": -3,
+    "backlogHighlightHeightShift": 11,
+    "sghdPhoneXPadding": 2,
+    "disableUnconfiguredControllers": false,
+    "shouldHideAutoSkip": false,
+    "usePoolAllocators": false,
+    "hijackLauncher": "Game.exe mages_sgate",
+    "fmv": {
+      "fonts": [
+      ],
+      "subs": {
+      },
+      "videoRedirection": {
+      }
+    },
+    "physicalFileRedirection": {
+      "script.mpk": "cnscript.mpk"
+    },
+    "fileRedirection": {
+      "system": {
+        "9": 0,
+        "10": 0,
+        "30": 1
+      }
+    }
+  },
+  "settings": {
+    "improveDialogueOutlines": {
+      "type": "bool",
+      "setters": {
+        "improveDialogueOutlines": true,
+        "outlinePadding": 4,
+        "outlineCellWidth": 38,
+        "outlineCellHeight": 38,
+        "outlineTextureId": 350,
+        "fontOutlineAFileName": "font-outline_A.dds",
+        "fontOutlineBFileName": "font-outline_B.dds"
+      }
+    }
+  }
+}
