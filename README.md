@@ -6,10 +6,6 @@ Features
 - 文字描边
 - 多行分行
 
-Issues
----
-- 描边字库不全
-
 Usage
 ---
 - 从 [Releases](https://github.com/mos9527/zero-patch-zhs/releases) 中下载打包后补丁

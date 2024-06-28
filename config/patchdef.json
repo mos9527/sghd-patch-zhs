@@ -45,8 +45,7 @@
         "outlineCellWidth": 38,
         "outlineCellHeight": 38,
         "outlineTextureId": 350,
-        "fontOutlineAFileName": "font-outline_A.dds",
-        "fontOutlineBFileName": "font-outline_B.dds"
+        "fontOutlineAFileName": "font-outline_A.dds"
       }
     }
   }
